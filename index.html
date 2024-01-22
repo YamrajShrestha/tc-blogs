@@ -17,6 +17,8 @@
   <body>
     <div class="site-wrapper">
       <div class="main-overlay"></div>
+
+      <!-- # HEADER  -->
       <header class="header-default">
         <nav class="navbar navbar-expand-lg shadow">
           <div class="container">
@@ -78,10 +80,365 @@
           </div>
         </nav>
       </header>
+
+      <!-- # HERO  -->
       <div id="hero">
         <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-8"></div>
+          <div class="row py-5 gy-4">
+            <div class="col-lg-8">
+              <div class="category-banner">
+                <div class="thumb">
+                  <figure class="img-holder">
+                    <img src="img/featured-lg.jpg" alt="" class="img-cover" />
+                  </figure>
+                </div>
+                <div class="img-content">
+                  <a href="#" class="badge">Finance</a>
+                  <h3>
+                    <a href="#" class="post-title"
+                      >3 Things to avoid while investing in
+                      <span> stock market as a beginner </span></a
+                    >
+                  </h3>
+                  <p class="meta-inline d-flex gap-3">
+                    <a href="#">Techie Coder</a>
+                    <span class="text-white-50">|</span>
+                    <time class="time" datetime="22-01-2024"
+                      >22nd Jan 2024</time
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="post-tabs rounded bordered">
+                <ul
+                  id="postTab"
+                  class="nav nav-tabs nav-pills nav-fill"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <button
+                      id="popular-tab"
+                      class="nav-link"
+                      aria-controls="popular"
+                      aria-selected="false"
+                      data-bs-target="#popular"
+                      data-bs-toggle="tab"
+                      role="tab"
+                      type="button"
+                    >
+                      Popular
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      id="recent-tab"
+                      class="nav-link active"
+                      aria-controls="recent"
+                      aria-selected="true"
+                      data-bs-target="#recent"
+                      data-bs-toggle="tab"
+                      role="tab"
+                      type="button"
+                    >
+                      Recent
+                    </button>
+                  </li>
+                </ul>
+
+                <!-- content  -->
+                <div id="postsTabContents" class="tab-content">
+                  <!-- loader -->
+                  <div class="lds-dual-ring"></div>
+                  <!-- pop post  -->
+                  <div
+                    id="popular"
+                    class="tab-pane fade"
+                    aria-labelledby="popular-tab"
+                    role="tabpanel"
+                  >
+                    <!-- post1 -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-1.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#">Bitcoin price raise after sudden fall</a>
+                        </h6>
+                        <div class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">22nd Jan 2024</li>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- post2  -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-2.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#"
+                            >Clubhouse Crosses 1Mn Downloads On Play Store</a
+                          >
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">26 May 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- post3  -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-3.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#">Check current Gold Price of 24k</a>
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">28 May 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-5.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#">Improve your mails with Grammarly</a>
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">01 Jun 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="recent"
+                    aria-labelledby="recent-tab"
+                    role="tabpanel"
+                  >
+                    <!-- post  -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-5.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#"
+                            >Clubhouse breaking records of many apps</a
+                          >
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">24 May 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- post2  -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-1.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#">At what age you should start investing</a>
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">26 May 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- post3  -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-3.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#"
+                            >Sonu sood foundation providing help in COVID-19</a
+                          >
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">28 Jun 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- post4  -->
+                    <div class="post post-list-sm circle">
+                      <div class="thumb circle">
+                        <a href="#">
+                          <div class="inner">
+                            <img src="img/tabs-2.jpg" alt="" />
+                          </div>
+                        </a>
+                      </div>
+                      <div class="details clearfix">
+                        <h6 class="post-title my-0">
+                          <a href="#"
+                            >Should we invest in soverign gold bonds</a
+                          >
+                        </h6>
+                        <ul class="meta list-inline mt-1 mb-0">
+                          <li class="list-inline-item">04 Jun 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- # EDITOR  -->
+      <div class="editor">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <h4 class="section-title">Editor's Pick</h4>
+              <div class="row border py-4 px-3">
+                <div class="col-lg-6">
+                  <div class="img-banner">
+                    <figure class="img-holder">
+                      <img src="img/editors-lg.jpg" alt="" class="w-100" />
+                    </figure>
+                    <a href="#" class="badge">Lifestyle</a>
+                    <span class="post-format"
+                      ><i class="bx bx-image bx-border-circle bx-sm p-4"></i
+                    ></span>
+                  </div>
+                  <ul class="p-0 d-flex align-items-center gap-5">
+                    <li class="d-flex align-items-center gap-3">
+                      <a href="#"
+                        ><img
+                          src="img/author-sm.jpg"
+                          alt=""
+                          class="rounded-circle" /></a
+                      >Techie Coder
+                    </li>
+                    <li>22nd Jan 2024</li>
+                  </ul>
+                  <h5 class="section-subtitle">
+                    <a href="#">3 must visit Place in switzerland</a>
+                  </h5>
+                  <p class="text">
+                    This is Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Explicabo, quasi.
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <figure class="img-holder">
+                        <img src="img/editor-side-1.jpg" alt="" class="w-100" />
+                      </figure>
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="text-title">
+                        <a href="#">2 Policemen saved life like a hero</a>
+                      </h6>
+                      <time class="time" datetime="22-01-2024"
+                        >22nd Jan 2024</time
+                      >
+                    </div>
+                    <div class="col-lg-4">
+                      <figure class="img-holder">
+                        <img src="img/editor-side-2.jpg" alt="" class="w-100" />
+                      </figure>
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="text-title">
+                        <a href="#">3 ways to remove dark spots naturally </a>
+                      </h6>
+                      <time class="time" datetime="22-01-2024"
+                        >22nd Jan 2024</time
+                      >
+                    </div>
+                    <div class="col-lg-4">
+                      <figure class="img-holder">
+                        <img src="img/editor-side-3.jpg" alt="" class="w-100" />
+                      </figure>
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="text-title">
+                        <a href="#"
+                          >Top 10 Interior designers for your dream home.
+                        </a>
+                      </h6>
+                      <time class="time" datetime="22-01-2024"
+                        >22nd Jan 2024</time
+                      >
+                    </div>
+                    <div class="col-lg-4">
+                      <figure class="img-holder">
+                        <img src="img/editor-side-4.jpg" alt="" class="w-100" />
+                      </figure>
+                    </div>
+                    <div class="col-lg-8">
+                      <h6 class="text-title">
+                        <a href="#">Learn how to make desert at home. </a>
+                      </h6>
+                      <time class="time" datetime="22-01-2024"
+                        >22nd Jan 2024</time
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="widget text-center border p-5">
+                <img src="img/logo.svg" alt="" class="img-cover" />
+                <p class="text pt-5">
+                  This is Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Dolores tempora accusantium culpa deleniti nesciunt
+                  repellat quisquam quos vero. Esse itaque est optio nostrum
+                  porro quisquam nihil reprehenderit fugiat enim non.
+                </p>
+                <div class="social-icons">
+                  <i class="bx bx-sm me-2 bxl-facebook"></i>
+                  <i class="bx bx-sm me-2 bxl-twitter"></i>
+                  <i class="bx bx-sm me-2 bxl-linkedin"></i>
+                  <i class="bx bx-sm me-2 bxl-pinterest-alt"> </i>
+                  <i class="bx bx-sm me-2 bxl-telegram"></i>
+                  <i class="bx bx-sm me-2 bx-envelope"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -97,6 +454,16 @@
         $(window).on("scroll", function () {
           var fromTop = $(window).scrollTop();
           $("body").toggleClass("down", fromTop > 300);
+        });
+      });
+      $(function () {
+        $('button[data-bs-toggle="tab"]').on("click", function () {
+          $(".tab-pane").addClass("loading");
+          $(".lds-dual-ring").addClass("loading");
+          setTimeout(function () {
+            $(".tab-pane").removeClass("loading");
+            $(".lds-dual-ring").removeClass("loading");
+          }, 500);
         });
       });
     </script>
