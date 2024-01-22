@@ -66,7 +66,7 @@ button {
 /* # RESUSED STYLE  */
 
 .section {
-  padding-block: 60px;
+  padding-block: 30px;
 }
 
 .section-title {
@@ -240,6 +240,20 @@ body.down .header-default.clone {
 }
 
 .img-content h3:is(:hover, :focus) a.post-title {
+  color: #e098ff;
+}
+
+.inspiration a.post-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 31px;
+  margin-block: 15px;
+  color: #fff;
+  transition: 0.25s ease;
+}
+
+.inspiration h3:is(:hover, :focus) a.post-title {
   color: #e098ff;
 }
 
@@ -428,12 +442,51 @@ rounded {
 }
 
 /* # widget  */
-.widget{
+.widget {
   position: relative;
 }
 
-.widget .img-cover{
+.widget .img-cover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* # latest post  */
+
+.icon-banner {
+  position: relative;
+}
+
+.icon-banner .bx {
+  background-color: #ad1deb;
+  color: #fff;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.latest-post a {
+  color: #8f9bad;
+  transition: 0.25s ease;
+}
+.latest-post li {
+  color: #8f9bad;
+  transition: 0.25s ease;
+}
+
+.latest-post li:is(:hover, :focus) a {
+  color: #ad1deb;
+}
+
+.latest-post .text-subtitle a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ad1deb;
+  transition: 0.25s ease;
+}
+
+.latest-post .text-subtitle a:is(:hover, :focus) {
+  color: #203656;
 }
