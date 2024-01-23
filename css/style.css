@@ -490,3 +490,161 @@ rounded {
 .latest-post .text-subtitle a:is(:hover, :focus) {
   color: #203656;
 }
+
+.latest-post {
+  position: relative;
+}
+
+.latest-post span a.btn-pill {
+  max-width: fit-content;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.latest-post a.btn-pill:is(:hover, :focus) {
+  color: #ad1deb;
+  border-color: #ad1deb !important;
+}
+
+/* #popular post  */
+.pop-post .img-holder {
+  border-radius: 50%;
+}
+
+.pop-post .section-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203656;
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+.pop-post .text-subtitle a {
+  color: #203656;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.pop-post .text-subtitle:is(:hover, :focus-within) a {
+  color: #ad1deb;
+}
+
+/* # explore topic  */
+.explore-topic .section-subtitle {
+  color: #203656;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-block-end: 20px;
+}
+
+.explore-topic ul li span {
+  color: #8f9bad;
+}
+.explore-topic ul li a {
+  color: #203656;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 45px;
+  transition: 0.25s ease;
+}
+
+.explore-topic ul li:is(:hover, :focus) a {
+  color: #ad1deb;
+}
+
+/* # newsletter  */
+
+.newsletter .section-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203656;
+}
+
+.newsletter .text-subtitle {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  color: #203656;
+}
+
+.newsletter .btn {
+  background: var(--bg);
+  color: #fff;
+  margin-block-start: 15px;
+  width: 100%;
+}
+
+.newsletter p a {
+  color: #ad1deb;
+  transition: 025s ease;
+}
+
+.newsletter p a:is(:hover, :focus) {
+  color: #203656;
+}
+
+/* # covid-19  */
+.covid-19 h4.section-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203656;
+  margin-block: 20px;
+}
+
+.covid-19 ul li a {
+  color: #8f9bad;
+  transition: 0.25s ease;
+}
+
+.covid-19 ul li:is(:hover, :focus) a {
+  color: #ad1deb;
+}
+
+/* # Tag Clouds  */
+.tag-cloud {
+  text-align: center;
+}
+
+.tag-cloud h4.section-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203656;
+  margin-block: 20px;
+}
+
+.tag-cloud a.btn-pill {
+  color: #8f9bad;
+  transition: 0.25s ease;
+}
+
+.tag-cloud a.btn-pill:is(:hover, :focus) {
+  color: #ad1deb;
+  border-color: #ad1deb !important;
+}
+
+/* # Gallery  */
+.gallery h4.section-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #203656;
+  margin-block: 20px;
+  text-align: center;
+}
+
+footer .social-icons .bx {
+  color: #ad1deb;
+  border-color: #ad1deb;
+}
+
+footer .social-icons .bx:is(:hover, :focus) {
+  background: #ad1deb;
+  color: #fff;
+}
